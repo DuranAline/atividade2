@@ -1,0 +1,90 @@
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.foto{
+  width: 100%;
+}
+
+body {
+  background-color: #F5F5F5;
+ 
+}
+
+/* definir tamanho da caixa do formulario */
+.form{
+  width: 400px;
+  margin: auto;
+  margin-top: 60px;
+
+}
+
+.imgcard{
+  text-align: center;
+
+}
+/* criei classe dentro da imagem para configurar a imagem em si*/
+
+.imglogin{
+  border-radius: 40px;
+  width: 80px;
+  height: 80px;
+  box-shadow: 2px 2px 6px #DCDCDC;
+}
+
+/* configurando a tela de login */
+.card{
+  background-color: white;
+  box-shadow: 1px 1px 5px #DCDCDC;
+  padding: 40px;
+  border-radius: 6px ;
+  margin-bottom: 150px;
+  margin-top: 200px;
+}
+
+.corletra{
+  color: tomato;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
+p{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #696969;
+}
+
+
+
+/* configurando a parte de email  chamando a label */
+.cardlabel > label{
+  width: 100%;
+  color: #696969;
+  display: block;
+}
+
+/* configurando a parte de email  chamando o imput */
+.cardlabel >input{
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  height: 30px;
+  color: #696969;
+  padding: 5px;
+}
+
+.cardlabel> button{
+  background-color: tomato;
+  width: 100%;
+  border-radius: 30px;
+  padding: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  border: 0px;
+  outline: none;
+}
+.link {
+  color: white;
+  text-decoration: none;
